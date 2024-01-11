@@ -81,6 +81,5 @@ public class Main {
                 if (three > one && three > two) {
                     System.out.println("Наибольшее число " + three);
                 }
-
     }
 }
