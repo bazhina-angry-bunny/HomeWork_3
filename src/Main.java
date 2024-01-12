@@ -35,10 +35,10 @@ public class Main {
             System.out.println("Если возраст человека равен " + agePerson+ ", то ему пора ходить на работу.");
         }
         System.out.println("Задача №5");
-        int ageChild = 64;
+        int ageChild = 14;
         if (ageChild < 5) {
             System.out.println("Если возраст ребенка равен " + ageChild+ ", то ему нельзя кататься на аттракционе.");
-        } else if (ageChild >= 5 && ageChild <= 14) {
+        } else if (ageChild >= 5 && ageChild < 14) {
             System.out.println("Если возраст ребенка равен " + ageChild+ ", то ему можно кататься на аттракционе в сопровождении взрослого.");
         } else if (ageChild >= 14) {
             System.out.println("Если возраст ребенка равен " + ageChild+ ", то ему можно кататься на аттракционе без сопровождения взрослого.");
