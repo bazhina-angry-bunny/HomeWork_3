@@ -58,7 +58,7 @@ public class Main {
         System.out.println("Задача №7");
         int one = -17;
         int two = -15;
-        int three = -21;
+        int three = 21;
         if (one > two && one > three) {
             System.out.println("Наибольшее число " + one);
         } else if (two > one && two > three) {
