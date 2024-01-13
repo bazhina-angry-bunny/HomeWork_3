@@ -53,7 +53,7 @@ public class Main {
         } else if (standingPlaces) {
             System.out.println("В вагоне имеются только стоячие места.");
         } else if (fullness) {
-            System.out.println("Вагон заполнен, мест нет.");
+            System.out.println("Вагон заполнен, мест нет");
         }
         System.out.println("Задача №7");
         int one = -17;
