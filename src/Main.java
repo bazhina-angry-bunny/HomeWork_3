@@ -47,7 +47,7 @@ public class Main {
         int capacityOfOneTrainCar = 62;
         boolean seating = capacityOfOneTrainCar >= 0 && capacityOfOneTrainCar <= 60;
         boolean standingPlaces = capacityOfOneTrainCar > 60 && capacityOfOneTrainCar <= 102;
-        boolean fullness = capacityOfOneTrainCar >= 102;
+        boolean fullness = capacityOfOneTrainCar > 102;
         if (seating) {
             System.out.println("В вагоне имеются сидячие места.");
         } else if (standingPlaces) {
